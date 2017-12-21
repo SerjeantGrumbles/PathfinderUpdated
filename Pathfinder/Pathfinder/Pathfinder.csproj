@@ -1,0 +1,675 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E224ED1B-C8B9-4032-8631-F4E39DABFF00}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Pathfinder</RootNamespace>
+    <AssemblyName>Pathfinder</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Forms\CharacterPortrait.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CharacterPortrait.Designer.cs">
+      <DependentUpon>CharacterPortrait.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CharacterSheet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CharacterSheet.Designer.cs">
+      <DependentUpon>CharacterSheet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CreateCharacter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CreateCharacter.Designer.cs">
+      <DependentUpon>CreateCharacter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Objects\Armor.cs" />
+    <Compile Include="Objects\Character.cs" />
+    <Compile Include="Objects\Dice.cs" />
+    <Compile Include="Objects\Item.cs" />
+    <Compile Include="Objects\Shield.cs" />
+    <Compile Include="Objects\Weapon.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\CharacterSheet.resx">
+      <DependentUpon>CharacterSheet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BlankGrey.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BlankTexture.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GoldIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\MORTH02L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\MORFI10L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\MORFI09L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\MORFI05L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\MORFI03L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\MORCL01L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\MORBA01L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\MORBA00L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\MHUTH15L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\MHUTH11L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\MHUTH10L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\MHUTH03L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\MHUTH01L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\MHUTH00L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\MHUSO01L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\MHURA04L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\MHURA01L.BMP" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\MHUPA05L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\MHUPA03L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\MHUPA02L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\MHUMO06L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\MHUMO00L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\MHUMA16L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\MHUMA12L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\MHUMA00L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\MHUFI54L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\MHUFI42L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\MHUFI35L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\MHUFI34L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\MHUFI33L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\MHUFI30L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\MHUFI28L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\MHUFI23L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\MHUFI18L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\MHUFI10L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\MHUFI05L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\MHUDR05L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\MHUDR03L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\MHUCL07L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\MHUCL03L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\MHUBD03L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\MHUBD02L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\MHUBA06L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\MHUBA04L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\MHUBA00L.BMP" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\MHATH05L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\MHATH04L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\MHATH00L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\MHAFI05L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\MHAFI01L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\MHACL02L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\MGNTH01L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\MGNMA04L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\MGNMA00L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\MGNFI04L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\MGNCL03L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\MELTH09L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\MELTH02L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\MELSO01L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\MELRA03L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\MELRA02L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\MELMA06L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\MELMA05L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\MELFI10L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\MELFI09L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\MELFI05L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\MELCL06L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\MELCL04L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\MELBA04L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\MDWTH02L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\MDWTH00L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\MDWFI09L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\MDWFI08L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\MDWFI06L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\MDWFI05L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\MDWFI00L.BMP" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\MDWCL07L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\MDWCL04L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\MDWCL01L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\MDWBA02L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\FDWBA00L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\FDWCL00L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\FDWFI02L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\FDWTH00L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\FDWTH02L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\FELBA03L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\FELCL01L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\FELCL05L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\FELCL07L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\FELDR00L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\FELDR02L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\FELDR04L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\FELFI00L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\FELFI02L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\FELFI04L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\FELFI06L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\FELFI09L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\FELMA00M.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\FELMA05L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\FELMA11L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\FELMA14L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\FELRA00L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\FELRA01L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\FELRA04L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\FELRA06L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\FELSO04L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\FELSO07L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\FELTH01L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\FELTH03L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\FELTH04L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\FGNCL02L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\FGNFI01L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\FGNMA02L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\FGNTH00L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\FHACL02L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\FHAFI01L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\FHAFI02L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\FHATH03L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\FHATH04L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\FHUBA00L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\FHUBD00L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\FHUBD04L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\FHUCL03L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\FHUCL07L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\FHUCL11L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\FHUDR01L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\FHUDR02L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\FHUDR05L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\FHUDR07L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\FHUFI00L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\FHUFI07L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\FHUFI10L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\FHUFI13L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\FHUFI15L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\FHUFI20L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\FHUFI21L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\FHUMA00L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\FHUMA02L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\FHUMA05L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\FHUMA09L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\FHUMA12L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\FHUMA17L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\FHUMA18L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\FHUMO01L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\FHUMO02L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\FHUPA03L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\FHUPA07L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\FHUPA09L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\FHURA04L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\FHURA05L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\FHUSO00L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\FHUSO06L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\FHUSO09L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\FHUTH03L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\FHUTH05L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\FHUTH11L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\FHUTH13L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\FHUTH16L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\FORBA01L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\FORBA02L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\FORCL03L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\FORFI00L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\FORFI02L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portraits\FORTH00L.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WeaponIcons\1H_Sword.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WeaponIcons\2H_Sword.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WeaponIcons\Axe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WeaponIcons\Crossbow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WeaponIcons\Halberd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WeaponIcons\Hammer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WeaponIcons\Mace.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WeaponIcons\Staff.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ScaleIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_axe1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_sword_long3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_chain_breast.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PlateArmor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ArmorIcons\Chainmail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ArmorIcons\Cloth.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ArmorIcons\Leather.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ArmorIcons\Plate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BlankInventory.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BrownBackground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\ArmorIcons\Fullplate.png" />
+    <None Include="Resources\WeaponIcons\Shortbow.png" />
+    <None Include="Resources\WeaponIcons\Longbow.png" />
+    <None Include="Resources\WeaponIcons\Longsword.png" />
+    <None Include="Resources\WeaponIcons\LightCrossbow.png" />
+    <None Include="Resources\WeaponIcons\HeavyCrossbow.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,685 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="MORBA00L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\MORBA00L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MELCL06L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\MELCL06L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FHUMA09L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\FHUMA09L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MHUBA00L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\MHUBA00L.BMP;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MHAFI05L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\MHAFI05L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FORBA01L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\FORBA01L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cloth" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ArmorIcons\Cloth.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MDWCL01L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\MDWCL01L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BlankInventory" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BlankInventory.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FELRA06L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\FELRA06L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FDWFI02L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\FDWFI02L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MHUMO06L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\MHUMO06L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FHUTH13L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\FHUTH13L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MELFI05L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\MELFI05L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MHUFI35L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\MHUFI35L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FHUFI00L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\FHUFI00L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MHUTH11L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\MHUTH11L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MHUPA03L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\MHUPA03L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FHUTH03L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\FHUTH03L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MGNCL03L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\MGNCL03L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FGNMA02L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\FGNMA02L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Plate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ArmorIcons\Plate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MHUTH10L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\MHUTH10L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MHATH04L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\MHATH04L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MHUMA00L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\MHUMA00L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MELSO01L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\MELSO01L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FHATH04L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\FHATH04L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FHUBD00L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\FHUBD00L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FELDR02L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\FELDR02L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MDWBA02L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\MDWBA02L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FHUPA03L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\FHUPA03L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MHURA04L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\MHURA04L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FELRA00L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\FELRA00L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MHUBD03L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\MHUBD03L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MDWFI09L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\MDWFI09L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FHUBD04L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\FHUBD04L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FELFI04L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\FELFI04L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MHUFI23L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\MHUFI23L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FHACL02L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\FHACL02L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MHUMA16L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\MHUMA16L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MHUDR03L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\MHUDR03L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MDWFI06L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\MDWFI06L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MORTH02L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\MORTH02L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FELCL07L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\FELCL07L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MHUTH15L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\MHUTH15L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MHUFI05L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\MHUFI05L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MHUFI33L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\MHUFI33L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FHUCL07L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\FHUCL07L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FHUDR05L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\FHUDR05L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MORFI10L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\MORFI10L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Halberd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WeaponIcons\Halberd.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FELTH01L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\FELTH01L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MHUFI54L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\MHUFI54L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Staff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WeaponIcons\Staff.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FHUMA00L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\FHUMA00L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FORTH00L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\FORTH00L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FHUFI21L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\FHUFI21L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FORFI02L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\FORFI02L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MHUFI18L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\MHUFI18L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FELSO07L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\FELSO07L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FHUMO02L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\FHUMO02L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BlankGrey" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BlankGrey.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MDWTH00L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\MDWTH00L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FHUFI20L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\FHUFI20L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MHUCL07L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\MHUCL07L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MHATH05L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\MHATH05L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FHUDR02L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\FHUDR02L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FELFI02L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\FELFI02L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MHUBD02L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\MHUBD02L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FELCL01L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\FELCL01L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MDWCL07L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\MDWCL07L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FHUTH11L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\FHUTH11L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Axe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WeaponIcons\Axe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MORBA01L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\MORBA01L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FDWTH00L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\FDWTH00L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Crossbow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WeaponIcons\Crossbow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FELSO04L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\FELSO04L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FHUMA17L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\FHUMA17L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FHUPA07L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\FHUPA07L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FELDR00L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\FELDR00L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FHUFI07L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\FHUFI07L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GoldIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GoldIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MGNMA04L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\MGNMA04L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MDWCL04L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\MDWCL04L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FGNCL02L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\FGNCL02L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FELBA03L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\FELBA03L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FHATH03L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\FHATH03L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MHUFI42L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\MHUFI42L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FELFI06L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\FELFI06L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FHUSO00L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\FHUSO00L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FHUCL03L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\FHUCL03L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MHUFI30L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\MHUFI30L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MHUFI10L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\MHUFI10L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FHUPA09L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\FHUPA09L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MGNFI04L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\MGNFI04L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FHUMA05L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\FHUMA05L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MHUPA05L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\MHUPA05L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FHUDR01L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\FHUDR01L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MHUCL03L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\MHUCL03L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FHUSO09L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\FHUSO09L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FHUFI13L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\FHUFI13L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ScaleIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ScaleIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MORCL01L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\MORCL01L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Chainmail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ArmorIcons\Chainmail.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MELFI09L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\MELFI09L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FORBA02L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\FORBA02L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MGNMA00L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\MGNMA00L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1H_Sword" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WeaponIcons\1H_Sword.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FELCL05L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\FELCL05L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FHUTH16L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\FHUTH16L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MHUMA12L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\MHUMA12L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MHUBA04L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\MHUBA04L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MHURA01L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\MHURA01L.BMP;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MHUMO00L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\MHUMO00L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FHURA05L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\FHURA05L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FGNFI01L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\FGNFI01L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MELBA04L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\MELBA04L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MELFI10L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\MELFI10L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FHUCL11L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\FHUCL11L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MDWFI05L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\MDWFI05L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MGNTH01L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\MGNTH01L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FELTH04L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\FELTH04L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MDWTH02L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\MDWTH02L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FDWCL00L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\FDWCL00L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FHUMA18L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\FHUMA18L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FHUFI15L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\FHUFI15L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FHUMA12L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\FHUMA12L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MHUFI28L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\MHUFI28L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FHUMA02L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\FHUMA02L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FELMA14L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\FELMA14L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FHUTH05L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\FHUTH05L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MHACL02L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\MHACL02L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FELRA01L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\FELRA01L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MHATH00L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\MHATH00L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MELTH09L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\MELTH09L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MELCL04L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\MELCL04L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FELRA04L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\FELRA04L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MELMA05L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\MELMA05L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FHAFI02L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\FHAFI02L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2H_Sword" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WeaponIcons\2H_Sword.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MORFI03L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\MORFI03L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MELTH02L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\MELTH02L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FHUMO01L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\FHUMO01L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FHUDR07L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\FHUDR07L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BlankTexture" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BlankTexture.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MHUTH00L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\MHUTH00L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FDWBA00L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\FDWBA00L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MORFI05L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\MORFI05L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FELDR04L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\FELDR04L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FELMA00M" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\FELMA00M.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MHUDR05L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\MHUDR05L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FELFI09L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\FELFI09L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FELMA05L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\FELMA05L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FHAFI01L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\FHAFI01L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FHURA04L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\FHURA04L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MELMA06L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\MELMA06L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FORCL03L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\FORCL03L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MORFI09L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\MORFI09L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MELRA02L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\MELRA02L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MHUTH03L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\MHUTH03L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FDWTH02L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\FDWTH02L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MHUFI34L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\MHUFI34L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MHUBA06L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\MHUBA06L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MHUTH01L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\MHUTH01L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MHUPA02L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\MHUPA02L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MDWFI00L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\MDWFI00L.BMP;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mace" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WeaponIcons\Mace.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Leather" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ArmorIcons\Leather.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FHUSO06L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\FHUSO06L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FHUFI10L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\FHUFI10L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FGNTH00L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\FGNTH00L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MHUSO01L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\MHUSO01L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FELTH03L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\FELTH03L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MDWFI08L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\MDWFI08L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FORFI00L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\FORFI00L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MHAFI01L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\MHAFI01L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FELFI00L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\FELFI00L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FELMA11L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\FELMA11L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MELRA03L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\MELRA03L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FHUBA00L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portraits\FHUBA00L.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hammer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WeaponIcons\Hammer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BrownBackground" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BrownBackground.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fullplate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\armoricons\fullplate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HeavyCrossbow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WeaponIcons\HeavyCrossbow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LightCrossbow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WeaponIcons\LightCrossbow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Longbow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WeaponIcons\Longbow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Longsword" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WeaponIcons\Longsword.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Shortbow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WeaponIcons\Shortbow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
